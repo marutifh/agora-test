@@ -14,9 +14,9 @@ npm i
 ```sh
 cordova platform add android ios
 ```
-4. To run and connected device 
+4. To run and connected device, platform can be either android or ios
 ```sh
-ionic cordova run android android
+ionic cordova run {{platform}} 
 ```
 5. To build the project, platform can be either android or ios
 ```sh
