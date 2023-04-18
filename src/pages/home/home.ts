@@ -1,5 +1,7 @@
 import { Component } from '@angular/core';
 import { IonicPage, NavController, NavParams, AlertController } from 'ionic-angular';
+import AgoraRTM from 'agora-rtm-sdk';
+
 /**
  * Generated class for the HomePage page.
  *
@@ -15,11 +17,14 @@ import { IonicPage, NavController, NavParams, AlertController } from 'ionic-angu
 export class HomePage {
 
   constructor(
-    public navCtrl: NavController, 
+    public navCtrl: NavController,
     public navParams: NavParams) {
   }
 
   ionViewDidLoad() {
     console.log('ionViewDidLoad HomePage');
+    const appID = "2c9cfd93d2df4f90a2dbf4647953e221";
+    // Initialize client
+    const client = AgoraRTM.createInstance(appID)
   }
 }
