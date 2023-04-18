@@ -4,6 +4,7 @@ import { IonicStorageModule } from '@ionic/storage';
 import { IonicApp, IonicModule } from 'ionic-angular';
 import { BrowserModule } from "@angular/platform-browser";
 import { TranslateHttpLoader } from '@ngx-translate/http-loader';
+import { TranslateModule, TranslateLoader } from "@ngx-translate/core";
 import { HttpClientModule, HttpClient } from '@angular/common/http';
 export function createTranslateLoader(http: HttpClient) {
   return new TranslateHttpLoader(http, './assets/i18n/', '.json');
@@ -21,10 +22,8 @@ import { SplashScreen } from '@ionic-native/splash-screen';
     // AngularFireModule.initializeApp(firebaseConfig),
     // AngularFireDatabaseModule,
     // AngularFireAuthModule,
-    FormsModule,
     BrowserModule,
     HttpClientModule,
-    DirectiveModule,
     TranslateModule.forRoot({
       loader: {
         provide: TranslateLoader,
