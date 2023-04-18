@@ -1,0 +1,86 @@
+//For language change
+$app-direction: multi;
+//Colors
+$colors: ( theme: #3a83ff, primary: #3a83ff, secondary: #40c956, success: #40c956, danger: #f22b43, warning: #f5a623, blue:#3a83ff, green: #40c956, red:#f22b43, yellow:#f5a623, light:#f7f7f7, black: #000, white: #fff, btn-primary: ( base: #3a83ff, contrast: white), btn-secondary: ( base: transparent, contrast: black), btn-grey: ( base: grey, contrast: black), btn-transparent: ( base: transparent, contrast: black), icon-light: #ccc);
+// $bg-light: #f7f7f7;
+$bg-dark: #ececec;
+$text-light: rgba(0, 0, 0, 0.54);
+$text-lighter: rgba(0, 0, 0, 0.3);
+$background-color: #ECF0F1;
+$border-color: #e0e0e0 !default;
+//Static colors
+// $black: #000;
+// $white: #fff;
+//Fonts
+$font-size-base: 14px !default;
+$font-size-small: 12px !default;
+$font-regular: NunitoSans-Regular !default;
+$font-bold: NunitoSans-Bold;
+@font-face {
+    font-family: "NunitoSans-Regular";
+    src: url("../assets/fonts/NunitoSans-Regular.ttf");
+}
+
+@font-face {
+    font-family: "NunitoSans-Bold";
+    src: url("../assets/fonts/NunitoSans-Bold.ttf");
+}
+
+//Badge customization
+$badge-font-size: 12px;
+//Label customization
+$label-ios-text-color: rgba(0,
+0,
+0,
+0.37) !default;
+$label-ios-text-color-focused: map-get($colors,
+primary) !default;
+//Searchbar customization
+$searchbar-ios-background-color: #FFFFFF !default;
+$searchbar-ios-border-color: #DEDEDE !default;
+$searchbar-ios-min-height: 40px !default;
+$searchbar-ios-padding-left-right: 10px !default;
+$searchbar-ios-padding-top-bottom: 10px !default;
+$searchbar-ios-input-height: 4rem !default;
+$searchbar-ios-input-background-color: rgba(0,
+0,
+0,
+0.06) !default;
+$searchbar-ios-border-color: #fff !default;
+//On-off switch toggle customization
+$toggle-ios-height: 20px;
+$toggle-ios-width: 40px;
+//Segment customization
+$segment-button-ios-border-radius: 0;
+$segment-button-ios-font-size: 14px;
+$segment-button-ios-border-width: 0px;
+$segment-button-ios-background-color: white;
+$segment-button-ios-background-color-activated:white;
+// Progressbar customization
+$progress-bar-color: #fff !default;
+$range-ios-bar-height: 4px;
+$progress-bg: rgba(0,
+0,
+0,
+0.06) !default;
+$line-height-computed: 20px !default;
+//Checkbox customization
+$checkbox-ios-icon-border-radius: 5px;
+$checkbox-ios-icon-checkmark-width: 2px;
+$checkbox-ios-icon-border-width: 2px !default;
+$checkbox-ios-icon-border-color-off: #000 !default;
+//List customization
+$list-background-color: #FFF;
+//Tabs customization
+$toolbar-background: map-get($colors,
+primary) !default;
+$tabs-ios-tab-icon-color-active: $toolbar-background !default;
+//Things to do card background 
+$card-background-color: rgba(58,
+131,
+255,
+0.1) !important;
+;
+//Alert message
+$alert-text-color: #7f5612;
+$alert-background-color: #fdedd3;

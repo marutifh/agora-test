@@ -1,0 +1,26 @@
+{
+    "ios": {
+        "debug": {
+            "codeSignIdentity": "iPhone Development",
+            "provisioningProfile": "f3b2f1a7-f6fc-4c24-9a23-5edd4be4db4f",
+            "developmentTeam": "MJ7637FPM5",
+            "iCloudContainerEnvironment": "Development",
+            "packageType": "development",
+            "buildFlag": [
+                "-UseModernBuildSystem=0",
+                "-iCloudContainerEnvironment=Production"
+            ]
+        },
+        "release": {
+            "codeSignIdentity": "iPhone Development",
+            "provisioningProfile": "f84da821-b1b6-4487-be40-e81808d32a1d",
+            "developmentTeam": "MJ7637FPM5",
+            "iCloudContainerEnvironment": "Production",
+            "packageType": "ad-hoc",
+            "buildFlag": [
+                "-UseModernBuildSystem=0",
+                "-iCloudContainerEnvironment=Production"
+            ]
+        }
+    }
+}
