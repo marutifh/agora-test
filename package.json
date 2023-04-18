@@ -1,8 +1,8 @@
 {
   "name": "agoratest",
   "version": "0.0.0",
-  "author": "maruti@entomo.com",
-  "homepage": "https://entomo.co/",
+  "author": "maruti@agoratest.com",
+  "homepage": "https://agoratest.co/",
   "private": true,
   "scripts": {
     "clean": "ionic-app-scripts clean",
