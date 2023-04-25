@@ -29,6 +29,10 @@ export class HomePage {
 		private zone: NgZone,
 		public navCtrl: NavController,
 		public navParams: NavParams) {
+			this.appId = "YOUR_APP_ID";
+			this.token = null;
+			this.channel = "TEST";
+			this.uid = 555;
 	}
 
 	ionViewDidLoad() {
