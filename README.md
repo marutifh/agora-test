@@ -12,7 +12,7 @@
 | Cordova | `npm i -g cordova@latest`      |
 | ionic (v5.4.16) | `npm i -g ionic@5.4.16`      |
 | native-run | `npm i -g native-run`      |
-| JDK  | version 8 is mandatory      |
+| JDK  | version 8+      |
 | cocoapods (macOS only)  | latest version      |
 
 
